@@ -198,43 +198,43 @@ function overwriteProxyGroups(params) {
     const regionList = [
         {
             flag: "🇭🇰", name: "香港", keyword: "香港|HK|Hong|🇭🇰", isMain: true,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/HKflag.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/HKflag.png"
         },
         {
             flag: "🇨🇳", name: "台湾", keyword: "台湾|TW|Taiwan|Wan|🇹🇼|🇨🇳", isMain: true,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/TWflag.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/TWflag.png"
         },
         {
             flag: "🇸🇬", name: "狮城", keyword: "新加坡|狮城|SG|Singapore|🇸🇬", isMain: true,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/SGflag.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/SGflag.png"
         },
         {
             flag: "🇯🇵", name: "日本", keyword: "日本|JP|Japan|🇯🇵", isMain: true,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/JPflag.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/JPflag.png"
         },
         {
             flag: "🇺🇸", name: "美国", keyword: "美国|US|United States|America|🇺🇸", isMain: true,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/USflag.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/USflag.png"
         },
         {
             flag: "🇰🇷", name: "韩国", keyword: "韩国|韓|KR|Korea|🇰🇷", isMain: false,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/KRflag.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/KRflag.png"
         },
         {
             flag: "🇬🇧", name: "英国", keyword: "英国|UK|United Kingdom|🇬🇧", isMain: false,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/UKflag.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/UKflag.png"
         },
         {
             flag: "🇫🇷", name: "法国", keyword: "法国|FR|France|🇫🇷", isMain: false,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/FRflag.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/FRflag.png"
         },
         {
             flag: "🇩🇪", name: "德国", keyword: "德国|DE|Germany|🇩🇪", isMain: false,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/DEflag.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/DEflag.png"
         },
         {
             flag: "", name: "低倍率", keyword: "(?:^|[^0-9])0\\.[1-9](?:$|[^0-9])", isMain: false,
-            icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/0.x.png"
+            icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/0.x.png"
         }
     ];
 
@@ -284,17 +284,17 @@ function overwriteProxyGroups(params) {
     const baseSelectList = [...manualGroupNames, "DIRECT", ...remainNodes];
 
     const topGroups = [
-        { name: "Proxy", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Proxy.png" },
-        { name: "AIGC", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/AI.png" },
-        { name: "Apple", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Apple.png" },
-        { name: "Google", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Google.png" },
-        { name: "Instagram", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Instagram.png" },
-        { name: "Microsoft", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Microsoft.png" },
-        { name: "Netflix", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Netflix.png" },
-        { name: "Telegram", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Telegram.png" },
-        { name: "TikTok", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Tiktok.png" },
-        { name: "YouTube", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Youtube.png" },
-        { name: "Twitter", icon: "https://cdn.jsdelivr.net/gh/Alex-spaceship/icons_0@main/Twitter.png" }
+        { name: "Proxy", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Proxy.png" },
+        { name: "AIGC", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/AI.png" },
+        { name: "Apple", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Apple.png" },
+        { name: "Google", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Google.png" },
+        { name: "Instagram", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Instagram.png" },
+        { name: "Microsoft", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Microsoft.png" },
+        { name: "Netflix", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Netflix.png" },
+        { name: "Telegram", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Telegram.png" },
+        { name: "TikTok", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Tiktok.png" },
+        { name: "YouTube", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Youtube.png" },
+        { name: "Twitter", icon: "https://cdn.jsdelivr.net/gh/Alex-forests/icons_0@main/Twitter.png" }
     ].map(g => ({
         name: g.name,
         type: "select",
