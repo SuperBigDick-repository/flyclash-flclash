@@ -431,9 +431,9 @@ function overwriteRules(params) {
             path: "./rule_set/youtube.yaml"
         },
         {
-            key: "google", behavior: "classical", format: "text",
-            url: "https://ruleset.skk.moe/Clash/non_ip/google.txt",
-            path: "./rule_set/google.txt"
+            key: "google",  behavior: "classical", format: "yaml",
+            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml",
+            path: "./rule_set/google.yaml"
         },
         {
             key: "netflix", behavior: "classical", format: "yaml",
